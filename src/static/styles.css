@@ -142,3 +142,23 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Add/adjust styles for participants section and list */
+.participants-section {
+  margin-top: 10px;
+  padding: 8px;
+  background: #f7f7fa;
+  border-radius: 6px;
+}
+
+.participants-list {
+  margin: 6px 0 0 24px; /* Ensures bullets are properly aligned */
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.no-participants {
+  color: #888;
+  margin: 4px 0 0 0;
+  font-style: italic;
+}
